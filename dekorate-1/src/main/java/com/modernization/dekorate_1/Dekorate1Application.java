@@ -1,13 +1,13 @@
-package com.manifestexample.dekorate_manifest;
+package com.modernization.dekorate_1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DekorateManifestApplication {
+public class Dekorate1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DekorateManifestApplication.class, args);
+		SpringApplication.run(Dekorate1Application.class, args);
 	}
 
 }
