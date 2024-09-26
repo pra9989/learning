@@ -44,6 +44,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+                        <groupId>io.dekorate</groupId>
+                        <artifactId>kubernetes-spring-starter</artifactId>
+                        <version>4.1.4</version>
+                </dependency>
 	</dependencies>
 
 	<build>
@@ -52,6 +57,10 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+                                <groupId>com.google.cloud.tools</groupId>
+                                <artifactId>jib-maven-plugin</artifactId>
+                        </plugin>
 		</plugins>
 	</build>
 
